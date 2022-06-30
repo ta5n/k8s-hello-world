@@ -2228,10 +2228,6 @@ progress {
   color: #6c757d;
   opacity: 1;
 }
-.form-control:-ms-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
 .form-control::placeholder {
   color: #6c757d;
   opacity: 1;
@@ -2689,17 +2685,10 @@ textarea.form-control-lg {
 .form-floating > .form-control::-moz-placeholder {
   color: transparent;
 }
-.form-floating > .form-control:-ms-input-placeholder {
-  color: transparent;
-}
 .form-floating > .form-control::placeholder {
   color: transparent;
 }
 .form-floating > .form-control:not(:-moz-placeholder-shown) {
-  padding-top: 2.5rem;
-  padding-bottom: 1.5rem;
-}
-.form-floating > .form-control:not(:-ms-input-placeholder) {
   padding-top: 2.5rem;
   padding-bottom: 1.5rem;
 }
@@ -2716,10 +2705,6 @@ textarea.form-control-lg {
   padding-bottom: 1.5rem;
 }
 .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
-  opacity: 0.65;
-  transform: scale(0.65) translateY(-0.5rem) translateX(0rem);
-}
-.form-floating > .form-control:not(:-ms-input-placeholder) ~ label {
   opacity: 0.65;
   transform: scale(0.65) translateY(-0.5rem) translateX(0rem);
 }
@@ -3003,7 +2988,6 @@ textarea.form-control-lg {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   background-color: transparent;
   border: 0.125rem solid transparent;
@@ -5416,7 +5400,6 @@ textarea.form-control-lg {
   pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   opacity: 0.25;
 }
@@ -7899,14 +7882,12 @@ textarea.form-control-lg {
 .user-select-auto {
   -webkit-user-select: auto !important;
      -moz-user-select: auto !important;
-      -ms-user-select: auto !important;
           user-select: auto !important;
 }
 
 .user-select-none {
   -webkit-user-select: none !important;
      -moz-user-select: none !important;
-      -ms-user-select: none !important;
           user-select: none !important;
 }
 
